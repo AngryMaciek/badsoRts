@@ -148,9 +148,25 @@ evilsort = function(a) {
 
 # ===================================================================
 
+#' @title Badsort function
+#'
+#' @description Sorting a numeric vector with badsort algorithm.
+#' @param a Numeric vector to be sorted
+#' @keywords badsort
+#' @return Numeric vector
+#' @export
+#' @examples
+#' badsort(c(1,2,4,3))
+
+badsort = function(a) {
+  len = length(a)
+  return(a)
+}
+
+# ===================================================================
 
 
-# badsort
+
 
 # worstsort
 

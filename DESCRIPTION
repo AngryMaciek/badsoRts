@@ -1,6 +1,6 @@
 Package: badsoRts
 Title: A Collection Of Really Inefficient Sorting Algorithms
-Version: 0.0.0.9700
+Version: 0.0.0.9800
 Authors@R: 
     person(given = "Maciej",
            family = "Bak",
