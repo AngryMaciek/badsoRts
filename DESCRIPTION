@@ -7,7 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "wsciekly.maciek@gmail.com",
            comment = c(ORCID = "0000-0003-1361-7301"))
-Description: Provides various inefficient sorting algorithms for numerical vectors.
+Description: Provides various inefficient sorting algorithms for numeric vectors.
 License: GPL-3
 Encoding: UTF-8
 LazyData: true

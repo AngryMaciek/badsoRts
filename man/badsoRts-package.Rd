@@ -8,7 +8,15 @@
 \description{
 \if{html}{\figure{logo.png}{options: align='right'}}
 
-Provides various inefficient sorting algorithms for numerical vectors.
+Provides various inefficient sorting algorithms for numeric vectors.
+}
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/AngryMaciek/badsoRts}
+  \item Report bugs at \url{https://github.com/AngryMaciek/badsoRts/issues}
+}
+
 }
 \author{
 \strong{Maintainer}: Maciej Bak \email{wsciekly.maciek@gmail.com} (0000-0003-1361-7301)
