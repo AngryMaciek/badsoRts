@@ -13,7 +13,6 @@ that implement extremely inefficient sorting algorithms:
 * Stooge sort (https://en.wikipedia.org/wiki/Stooge_sort)
 * Slowsort (http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.116.9158)
 * Bogobogosort (http://www.dangermouse.net/esoteric/bogobogosort.html)
-* Evilsort (https://web.archive.org/web/20131210012102/http://richardhartersworld.com/cri_d/cri/2001/badsort.html)
 
 
 ## Installation
