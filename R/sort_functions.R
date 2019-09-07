@@ -97,15 +97,27 @@ sillysort = function(a) {
 
 # ===================================================================
 
+#' @title Slowsort function
+#'
+#' @description Sorting a numeric vector with slowsort algorithm.
+#' @param a Numeric vector to be sorted
+#' @keywords slowsort
+#' @return Numeric vector
+#' @export
+#' @examples
+#' slowsort(c(1,2,4,3))
+
+slowsort = function(a) {
+  len = length(a)
+  return(a)
+}
 
 
 
 
-# slowsort
+
 
 # bogobogosort
-
-
 
 # evilsort
 
