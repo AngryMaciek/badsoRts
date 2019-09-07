@@ -18,4 +18,7 @@ Sorting a numeric vector with gorosort algorithm.
 \examples{
 gorosort(c(1,2,4,3))
 }
+\author{
+Maciej Bak, \email{wsciekly.maciek@gmail.com}
+}
 \keyword{gorosort}

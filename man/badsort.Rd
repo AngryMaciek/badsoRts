@@ -18,4 +18,7 @@ Sorting a numeric vector with badsort algorithm.
 \examples{
 badsort(c(1,2,4,3))
 }
+\author{
+Maciej Bak, \email{wsciekly.maciek@gmail.com}
+}
 \keyword{badsort}

@@ -18,4 +18,7 @@ Sorting a numeric vector with stooge sort algorithm.
 \examples{
 stoogesort(c(1,2,4,3))
 }
+\author{
+Maciej Bak, \email{wsciekly.maciek@gmail.com}
+}
 \keyword{stoogesort}

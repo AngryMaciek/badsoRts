@@ -6,6 +6,7 @@
 #' @param a Numeric vector to be sorted
 #' @keywords bogosort
 #' @return Numeric vector
+#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
 #' @export
 #' @examples
 #' bogosort(c(1,2,4,3))
@@ -28,6 +29,7 @@ bogosort = function(a) {
 #' @param a Numeric vector to be sorted
 #' @keywords bozosort
 #' @return Numeric vector
+#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
 #' @export
 #' @examples
 #' bozosort(c(1,2,4,3))
@@ -52,6 +54,7 @@ bozosort = function(a) {
 #' @param a Numeric vector to be sorted
 #' @keywords gorosort
 #' @return Numeric vector
+#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
 #' @export
 #' @examples
 #' gorosort(c(1,2,4,3))
@@ -69,6 +72,7 @@ gorosort = function(a) {
 #' @param a Numeric vector to be sorted
 #' @keywords stoogesort
 #' @return Numeric vector
+#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
 #' @export
 #' @examples
 #' stoogesort(c(1,2,4,3))
@@ -86,6 +90,7 @@ stoogesort = function(a) {
 #' @param a Numeric vector to be sorted
 #' @keywords sillysort
 #' @return Numeric vector
+#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
 #' @export
 #' @examples
 #' sillysort(c(1,2,4,3))
@@ -103,6 +108,7 @@ sillysort = function(a) {
 #' @param a Numeric vector to be sorted
 #' @keywords slowsort
 #' @return Numeric vector
+#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
 #' @export
 #' @examples
 #' slowsort(c(1,2,4,3))
@@ -120,6 +126,7 @@ slowsort = function(a) {
 #' @param a Numeric vector to be sorted
 #' @keywords bogobogosort
 #' @return Numeric vector
+#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
 #' @export
 #' @examples
 #' bogobogosort(c(1,2,4,3))
@@ -137,6 +144,7 @@ bogobogosort = function(a) {
 #' @param a Numeric vector to be sorted
 #' @keywords evilsort
 #' @return Numeric vector
+#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
 #' @export
 #' @examples
 #' evilsort(c(1,2,4,3))
@@ -154,6 +162,7 @@ evilsort = function(a) {
 #' @param a Numeric vector to be sorted
 #' @keywords badsort
 #' @return Numeric vector
+#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
 #' @export
 #' @examples
 #' badsort(c(1,2,4,3))
@@ -171,6 +180,7 @@ badsort = function(a) {
 #' @param a Numeric vector to be sorted
 #' @keywords worstsort
 #' @return Numeric vector
+#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
 #' @export
 #' @examples
 #' worstsort(c(1,2,4,3))

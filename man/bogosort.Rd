@@ -18,4 +18,7 @@ Sorting a numeric vector with bogosort algorithm.
 \examples{
 bogosort(c(1,2,4,3))
 }
+\author{
+Maciej Bak, \email{wsciekly.maciek@gmail.com}
+}
 \keyword{bogosort}
