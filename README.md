@@ -10,7 +10,6 @@ that implement extremely inefficient sorting algorithms:
 
 * Bogosort (https://en.wikipedia.org/wiki/Bogosort)
 * Bozosort (http://www.cs.toronto.edu/~guerzhoy/180/lectures/W10/lec3/Bozosort.html)
-* Gorosort (https://code.google.com/codejam/contest/dashboard?c=975485#s=p3)
 * Stooge sort (https://en.wikipedia.org/wiki/Stooge_sort)
 * Slowsort (http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.116.9158)
 * Bogobogosort (http://www.dangermouse.net/esoteric/bogobogosort.html)
