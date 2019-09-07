@@ -3,22 +3,21 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of badsoRts is to ...
+The goal of badsoRts is to provide the user with a few simple functions
+that implement extremely inefficient sorting algorithms:
+
+* 1
+* 2
 
 ## Installation
 
-You can install the released version of badsoRts from [CRAN](https://CRAN.R-project.org) with:
+The package can be installed and loaded with:
 
 ``` r
 install.packages("badsoRts")
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
 library(badsoRts)
-## basic example code
 ```
 
+* add info about devtools and github installation
+* add info about package documentation
+* add info about all algorithms
