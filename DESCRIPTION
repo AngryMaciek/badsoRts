@@ -1,0 +1,14 @@
+Package: badsoRts
+Title: A Collection Of Really Inefficient Sorting Algorithms
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Maciej",
+           family = "Bak",
+           role = c("aut", "cre"),
+           email = "wsciekly.maciek@gmail.com",
+           comment = c(ORCID = "0000-0003-1361-7301"))
+Description: Provides various inefficient sorting algorithms for numerical vectors.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
