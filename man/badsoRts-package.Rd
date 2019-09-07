@@ -6,6 +6,8 @@
 \alias{badsoRts-package}
 \title{badsoRts: A Collection Of Really Inefficient Sorting Algorithms}
 \description{
+\if{html}{\figure{logo.png}{options: align='right'}}
+
 Provides various inefficient sorting algorithms for numerical vectors.
 }
 \author{

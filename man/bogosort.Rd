@@ -9,6 +9,9 @@ bogosort(a)
 \arguments{
 \item{a}{Numeric vector to be sorted}
 }
+\value{
+Numeric vector
+}
 \description{
 Sorting a numeric vector with bogosort algorithm.
 }

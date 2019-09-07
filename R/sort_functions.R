@@ -3,6 +3,7 @@
 #' @description Sorting a numeric vector with bogosort algorithm.
 #' @param a Numeric vector to be sorted
 #' @keywords bogosort
+#' @return Numeric vector
 #' @export
 #' @examples
 #' bogosort(c(1,2,4,3))
