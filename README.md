@@ -1,5 +1,5 @@
 # badsoRts <img src='man/figures/logo.png' align="right" height="120" />
-
+*Maciej Bak*
 <!-- badges: start -->
 <!-- badges: end -->
 
@@ -21,4 +21,3 @@ library(badsoRts)
 * add info about devtools and github installation
 * add info about package documentation (available functions)
 * add info about all algorithms
-* add author at the top
