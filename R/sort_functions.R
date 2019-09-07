@@ -46,11 +46,26 @@ bozosort = function(a) {
 
 # ===================================================================
 
+#' @title Gorosort function
+#'
+#' @description Sorting a numeric vector with gorosort algorithm.
+#' @param a Numeric vector to be sorted
+#' @keywords gorosort
+#' @return Numeric vector
+#' @export
+#' @examples
+#' gorosort(c(1,2,4,3))
+
+gorosort = function(a) {
+  len = length(a)
+  return(a)
+}
+
+# ===================================================================
 
 
 
 
-# gorosort
 
 # stooge sort
 
@@ -58,8 +73,12 @@ bozosort = function(a) {
 
 # bogobogosort
 
+
+
+# evilsort
+
 # worstsort
 
 # badsort
 
-# evilsort
+
