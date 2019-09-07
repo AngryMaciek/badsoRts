@@ -22,15 +22,20 @@ that implement extremely inefficient sorting algorithms:
 
 ## Installation
 
-The package can be installed and loaded with:
+The package can be installed directly from my github with `devtools` R package:
 
 ``` r
-install.packages("badsoRts")
-library(badsoRts)
+install.packages("devtools")
+library(devtools)
+install_github("AngryMaciek/badsoRts")
 ```
 
-* add info about devtools and github installation
-* add info about package documentation (available functions)
+To inspect all available functions type:
+
+``` r
+library(badsoRts)
+lsf.str("package:badsoRts")
+```
 
 
 ## License
