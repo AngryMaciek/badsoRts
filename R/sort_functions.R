@@ -95,8 +95,27 @@ stoogesort = function(a) {
 #' @examples
 #' slowsort(c(1,2,4,3))
 
+recursive_slowsort = function(a, i, j) {
+  if (i >= j) {
+    return(a)
+  }
+  m = floor((i+j)/2)
+  a = recursive_slowsort(a,i,m)
+  a = recursive_slowsort(a,m+1,j)
+  if (a[j] < a[m]) {
+    # swap elements
+    swap = a[j]
+    a[j] = a[m]
+    a[m] = swap
+  }
+  a = recursive_slowsort(a,i,j-1)
+  return(a)
+}
+
 slowsort = function(a) {
-  len = length(a)
+  if ( length(a)>0 ) {
+    a = recursive_slowsort(a, 1, length(a))
+  }
   return(a)
 }
 
