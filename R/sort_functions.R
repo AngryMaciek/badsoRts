@@ -63,11 +63,25 @@ gorosort = function(a) {
 
 # ===================================================================
 
+#' @title Stooge sort function
+#'
+#' @description Sorting a numeric vector with stooge sort algorithm.
+#' @param a Numeric vector to be sorted
+#' @keywords stoogesort
+#' @return Numeric vector
+#' @export
+#' @examples
+#' stoogesort(c(1,2,4,3))
+
+stoogesort = function(a) {
+  len = length(a)
+  return(a)
+}
+
+# ===================================================================
 
 
 
-
-# stooge sort
 
 # slowsort
 
@@ -77,8 +91,10 @@ gorosort = function(a) {
 
 # evilsort
 
+# badsort
+
 # worstsort
 
-# badsort
+
 
 
