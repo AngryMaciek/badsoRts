@@ -112,19 +112,31 @@ slowsort = function(a) {
   return(a)
 }
 
+# ===================================================================
+
+#' @title Bogobogosort function
+#'
+#' @description Sorting a numeric vector with bogobogosort algorithm.
+#' @param a Numeric vector to be sorted
+#' @keywords bogobogosort
+#' @return Numeric vector
+#' @export
+#' @examples
+#' bogobogosort(c(1,2,4,3))
+
+bogobogosort = function(a) {
+  len = length(a)
+  return(a)
+}
+
+# ===================================================================
 
 
 
-
-
-# bogobogosort
 
 # evilsort
 
 # badsort
 
 # worstsort
-
-
-
 
