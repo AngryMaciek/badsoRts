@@ -19,6 +19,12 @@ bogosort = function(a) {
 
 # bozosort
 
+# gorosort
+
+# stooge sort
+
+# slowsort
+
 # bogobogosort
 
 # worstsort
@@ -26,5 +32,3 @@ bogosort = function(a) {
 # badsort
 
 # evilsort
-
-# unittests!
