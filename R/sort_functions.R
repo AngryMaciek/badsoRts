@@ -138,21 +138,3 @@ bogobogosort = function(a) {
 }
 
 # ===================================================================
-
-#' @title Evilsort function
-#'
-#' @description Sorting a numeric vector with evilsort algorithm.
-#' @param a Numeric vector to be sorted
-#' @keywords evilsort
-#' @return Numeric vector
-#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
-#' @export
-#' @examples
-#' evilsort(c(1,2,4,3))
-
-evilsort = function(a) {
-  len = length(a)
-  return(a)
-}
-
-# ===================================================================

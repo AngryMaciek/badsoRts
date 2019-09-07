@@ -3,6 +3,5 @@
 export(bogobogosort)
 export(bogosort)
 export(bozosort)
-export(evilsort)
 export(slowsort)
 export(stoogesort)
