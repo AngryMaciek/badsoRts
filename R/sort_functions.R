@@ -59,8 +59,26 @@ bozosort = function(a) {
 #' @examples
 #' stoogesort(c(1,2,4,3))
 
+recursive_stoogesort = function(a, i, j) {
+  if (a[i] > a[j]) {
+    # swap elements
+    swap = a[i]
+    a[i] = a[j]
+    a[j] = swap
+  }
+  if (j - i + 1 > 2) { # subarray has more than 2 elements
+    t = floor((j - i + 1) / 3)
+    a = recursive_stoogesort(a, i, j-t)
+    a = recursive_stoogesort(a, i+t, j)
+    a = recursive_stoogesort(a, i, j-t)
+  }
+  return(a)
+}
+
 stoogesort = function(a) {
-  len = length(a)
+  if ( length(a)>0 ) {
+    a = recursive_stoogesort(a, 1, length(a))
+  }
   return(a)
 }
 
