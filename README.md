@@ -21,3 +21,4 @@ library(badsoRts)
 * add info about devtools and github installation
 * add info about package documentation
 * add info about all algorithms
+* add author at the top
