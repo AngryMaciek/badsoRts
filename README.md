@@ -12,7 +12,6 @@ that implement extremely inefficient sorting algorithms:
 * Bozosort (http://www.cs.toronto.edu/~guerzhoy/180/lectures/W10/lec3/Bozosort.html)
 * Gorosort (https://code.google.com/codejam/contest/dashboard?c=975485#s=p3)
 * Stooge sort (https://en.wikipedia.org/wiki/Stooge_sort)
-* Sillysort (https://www.cise.ufl.edu/~sahni/cac++/instruct/set2/h2.pdf)
 * Slowsort (http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.116.9158)
 * Bogobogosort (http://www.dangermouse.net/esoteric/bogobogosort.html)
 * Hanoi Sort (http://www.dangermouse.net/esoteric/hanoisort.html)

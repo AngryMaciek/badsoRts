@@ -84,24 +84,6 @@ stoogesort = function(a) {
 
 # ===================================================================
 
-#' @title Silly sort function
-#'
-#' @description Sorting a numeric vector with silly sort algorithm.
-#' @param a Numeric vector to be sorted
-#' @keywords sillysort
-#' @return Numeric vector
-#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
-#' @export
-#' @examples
-#' sillysort(c(1,2,4,3))
-
-sillysort = function(a) {
-  len = length(a)
-  return(a)
-}
-
-# ===================================================================
-
 #' @title Slowsort function
 #'
 #' @description Sorting a numeric vector with slowsort algorithm.
