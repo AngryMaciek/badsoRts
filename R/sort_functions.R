@@ -48,17 +48,6 @@ bozosort = function(a) {
 
 # ===================================================================
 
-#' @title Stooge sort function
-#'
-#' @description Sorting a numeric vector with stooge sort algorithm.
-#' @param a Numeric vector to be sorted
-#' @keywords stoogesort
-#' @return Numeric vector
-#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
-#' @export
-#' @examples
-#' stoogesort(c(1,2,4,3))
-
 recursive_stoogesort = function(a, i, j) {
   if (a[i] > a[j]) {
     # swap elements
@@ -75,6 +64,17 @@ recursive_stoogesort = function(a, i, j) {
   return(a)
 }
 
+#' @title Stooge sort function
+#'
+#' @description Sorting a numeric vector with stooge sort algorithm.
+#' @param a Numeric vector to be sorted
+#' @keywords stoogesort
+#' @return Numeric vector
+#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
+#' @export
+#' @examples
+#' stoogesort(c(1,2,4,3))
+
 stoogesort = function(a) {
   if ( length(a)>0 ) {
     a = recursive_stoogesort(a, 1, length(a))
@@ -83,17 +83,6 @@ stoogesort = function(a) {
 }
 
 # ===================================================================
-
-#' @title Slowsort function
-#'
-#' @description Sorting a numeric vector with slowsort algorithm.
-#' @param a Numeric vector to be sorted
-#' @keywords slowsort
-#' @return Numeric vector
-#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
-#' @export
-#' @examples
-#' slowsort(c(1,2,4,3))
 
 recursive_slowsort = function(a, i, j) {
   if (i >= j) {
@@ -111,6 +100,17 @@ recursive_slowsort = function(a, i, j) {
   a = recursive_slowsort(a,i,j-1)
   return(a)
 }
+
+#' @title Slowsort function
+#'
+#' @description Sorting a numeric vector with slowsort algorithm.
+#' @param a Numeric vector to be sorted
+#' @keywords slowsort
+#' @return Numeric vector
+#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
+#' @export
+#' @examples
+#' slowsort(c(1,2,4,3))
 
 slowsort = function(a) {
   if ( length(a)>0 ) {
@@ -156,21 +156,3 @@ evilsort = function(a) {
 }
 
 # ===================================================================
-#' @title Badsort function
-#'
-#' @description Sorting a numeric vector with badsort algorithm.
-#' @param a Numeric vector to be sorted
-#' @keywords badsort
-#' @return Numeric vector
-#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
-#' @export
-#' @examples
-#' badsort(c(1,2,4,3))
-
-badsort = function(a) {
-  len = length(a)
-  return(a)
-}
-
-# ===================================================================
-

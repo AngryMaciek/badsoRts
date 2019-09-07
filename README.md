@@ -14,7 +14,6 @@ that implement extremely inefficient sorting algorithms:
 * Slowsort (http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.116.9158)
 * Bogobogosort (http://www.dangermouse.net/esoteric/bogobogosort.html)
 * Evilsort (https://web.archive.org/web/20131210012102/http://richardhartersworld.com/cri_d/cri/2001/badsort.html)
-* Badsort (https://sites.math.northwestern.edu/~mlerma/papers/inefficient_algorithms.pdf)
 
 
 ## Installation
