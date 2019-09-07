@@ -155,7 +155,24 @@ evilsort = function(a) {
 }
 
 # ===================================================================
+#' @title Hanoi sort function
+#'
+#' @description Sorting a numeric vector with hanoisort algorithm.
+#' @param a Numeric vector to be sorted
+#' @keywords hanoisort
+#' @return Numeric vector
+#' @author Maciej Bak, \email{wsciekly.maciek@@gmail.com}
+#' @export
+#' @examples
+#' hanoisort(c(1,2,4,3))
 
+hanoisort = function(a) {
+  len = length(a)
+
+  return(a)
+}
+
+# ===================================================================
 #' @title Badsort function
 #'
 #' @description Sorting a numeric vector with badsort algorithm.
