@@ -165,8 +165,20 @@ badsort = function(a) {
 
 # ===================================================================
 
+#' @title Worst function
+#'
+#' @description Sorting a numeric vector with worstsort algorithm.
+#' @param a Numeric vector to be sorted
+#' @keywords worstsort
+#' @return Numeric vector
+#' @export
+#' @examples
+#' worstsort(c(1,2,4,3))
 
+worstsort = function(a) {
+  len = length(a)
+  return(a)
+}
 
-
-# worstsort
+# ===================================================================
 
