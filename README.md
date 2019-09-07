@@ -6,7 +6,7 @@
 <!-- badges: end -->
 
 The goal of this R package is to provide the user with a few simple functions
-that implement extremely inefficient sorting algorithms:
+that implement highly inefficient sorting algorithms:
 
 * Bogosort (https://en.wikipedia.org/wiki/Bogosort)
 * Bozosort (http://www.cs.toronto.edu/~guerzhoy/180/lectures/W10/lec3/Bozosort.html)
