@@ -12,6 +12,18 @@ test_that("5-elemental vector, reverse", {
   expect_identical(bogobogosort(x), sorted)
 })
 
+test_that("3-elemental vector, negative values", {
+  x = c(-1,-2,-3)
+  sorted = c(-3,-2,-1)
+  expect_identical(bogobogosort(x), sorted)
+})
+
+test_that("4-elemental vector, all zeros", {
+  x = c(0,0,0,0)
+  sorted = c(0,0,0,0)
+  expect_identical(bogobogosort(x), sorted)
+})
+
 test_that("1-elemental vector (floating point)", {
   x = c(10.0)
   sorted = c(10.0)
