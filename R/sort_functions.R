@@ -121,6 +121,37 @@ slowsort = function(a) {
 
 # ===================================================================
 
+bogobogo_is_sorted = function(a) {
+  # 1 and 0-elemental arrays are always sorted
+  if (length(a)<2) {
+    return(TRUE)
+  } else {
+    copy = a # this is a deep copy
+    repeat {
+      last_element = copy[length(copy)]
+      # bogobogosort the subvector
+      copy = c(bogobogosort(copy[1:(length(copy)-1)]), last_element)
+      # compare last element of the copy with the last element of the
+      # bogobogosorted subvector
+      if (copy[length(copy)-1] <= copy[length(copy)]) {
+        break
+      } else {
+        # if order is not correct - shuffle the while vector
+        indices = sample(length(copy))
+        copy = copy[indices]
+      }
+    }
+    # compare to the original vector
+    v = TRUE
+    for (i in 1:length(a)) {
+      if (copy[i] != a[i]){
+        v = FALSE
+      }
+    }
+    return(v)
+  }
+}
+
 #' @title Bogobogosort function
 #'
 #' @description Sorting a numeric vector with bogobogosort algorithm.
@@ -134,6 +165,11 @@ slowsort = function(a) {
 
 bogobogosort = function(a) {
   len = length(a)
+  while (bogobogo_is_sorted(a)==FALSE) {
+    # pseudorandom permutation:
+    indices = sample(len)
+    a = a[indices]
+  }
   return(a)
 }
 
