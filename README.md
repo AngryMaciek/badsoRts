@@ -32,6 +32,12 @@ library(badsoRts)
 lsf.str("package:badsoRts")
 ```
 
+To learn about a specific function type:
+
+``` r
+?{FUNCTION}
+```
+
 
 ## License
 
