@@ -1,0 +1,56 @@
+###############################################################################
+#
+#   conda-build recipe for the package
+#
+#   AUTHOR: Maciej_Bak
+#   AFFILIATION: Swiss_Institute_of_Bioinformatics
+#   CONTACT: wsciekly.maciek@gmail.com
+#   CREATED: 05-10-2019
+#   LICENSE: GPL
+#
+###############################################################################
+---
+
+package:
+  name: badsorts
+  version: "1.0.0"
+
+source:
+  git_url: https://github.com/AngryMaciek/badsoRts
+  git_depth: 1
+
+build:
+  # limit to macOS an Linux:
+  skip: True  # [win]
+
+  number: 0
+  script: >
+    Rscript -e 'library("devtools");install_github("AngryMaciek/badsoRts")'
+
+channels:
+  - conda-forge
+
+requirements:
+  build:
+    - r-base>=3.3.1
+    - r-devtools>=2.0.1
+  run:
+    - r-base>=3.3.1
+
+test:
+  commands:
+    - Rscript -e 'library("badsoRts")'
+
+about:
+  home: https://github.com/AngryMaciek/badsoRts
+  summary: >
+    The goal of this R package is to provide the user with a few simple
+    functions that implement highly inefficient sorting algorithms.
+  license: GPL
+  license_file: LICENSE.md
+
+extra:
+  maintainers:
+   - Maciej_Bak
+
+...
