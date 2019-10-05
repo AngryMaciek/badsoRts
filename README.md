@@ -35,7 +35,7 @@ If you manage your software with `conda` then this package is also available the
 conda install -c angrymaciek badsorts
 ```
 
-### Info:
+## Info:
 
 To inspect all available functions type:
 
