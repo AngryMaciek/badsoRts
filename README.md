@@ -17,24 +17,36 @@ that implement highly inefficient sorting algorithms:
 
 ## Installation
 
+### From GitHub:
+
 The package can be installed directly from my github with `devtools` R package:
 
-``` r
+```r
 install.packages("devtools")
 library(devtools)
 install_github("AngryMaciek/badsoRts")
 ```
 
+### With conda:
+
+If you manage your software with `conda` then this package is also available there:
+
+```bash
+conda install -c angrymaciek badsorts
+```
+
+### Info:
+
 To inspect all available functions type:
 
-``` r
+```r
 library(badsoRts)
 lsf.str("package:badsoRts")
 ```
 
 To learn about a specific function type:
 
-``` r
+```r
 ?{FUNCTION}
 ```
 
