@@ -53,4 +53,4 @@ To learn about a specific function type:
 
 ## License
 
-GNU General Public License
+GNU General Public License v3.0
