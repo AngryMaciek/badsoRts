@@ -1,4 +1,4 @@
-# badsoRts <img src='man/figures/logo.png' align="right" height="120" />
+# Angry badsoRts <img src='man/figures/logo.png' align="right" height="120" />
 *Maciej Bak*  
 *Swiss Institute of Bioinformatics*
 
