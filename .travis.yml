@@ -17,7 +17,6 @@ install:
   - conda config --set always_yes yes --set changeps1 no
   - conda update -q conda
   - conda info -a
-  - unzip --version
 
 before_script:
   - sudo R -e 'install.packages("devtools", repos="http://cran.us.r-project.org")'
