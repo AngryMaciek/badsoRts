@@ -23,5 +23,9 @@ before_script:
 
 script:
 
-  # install from anaconda cloud
+  # install from the github repository
+  - sudo R -e 'library(devtools); install_github("AngryMaciek/badsoRts")'
+  - sudo R -e 'library(badsoRts)'
+
+  # install from the anaconda cloud
   - conda install -c angrymaciek badsorts
