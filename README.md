@@ -1,9 +1,9 @@
+[![Build Status](https://travis-ci.org/AngryMaciek/badsoRts.svg?branch=master)](https://travis-ci.org/AngryMaciek/badsoRts)
+[![GitHub license](https://img.shields.io/github/license/AngryMaciek/badsoRts)](https://github.com/AngryMaciek/badsoRts/blob/master/LICENSE.md)
+
 # Angry badsoRts <img src='man/figures/logo.png' align="right" height="120" />
 *Maciej Bak*  
 *Swiss Institute of Bioinformatics*
-
-<!-- badges: start -->
-<!-- badges: end -->
 
 The goal of this R package is to provide the user with a few simple functions
 that implement highly inefficient sorting algorithms:
