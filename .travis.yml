@@ -15,7 +15,10 @@ install:
 
 script:
   - conda activate base
-  - conda install -c r r-base r-testthat
+  - conda install -c r r-base r-testthat r-devtools
   - conda install -c angrymaciek badsorts
-  - sudo R -e 'library("devtools")'
+  - conda list
+  - R --version
+  - Rscript --version
+  - R -e 'library("devtools")'
   #- Rscript tests/testthat.R
