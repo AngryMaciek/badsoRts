@@ -15,8 +15,10 @@ install:
   - conda info -a
 
 script:
+  - conda activate base
   - conda install -c r r-base r-testthat
   - conda install -c angrymaciek badsorts
+  - conda list
   - R --version
   - Rscript --version
   - Rscript tests/testthat.R
