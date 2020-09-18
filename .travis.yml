@@ -17,5 +17,4 @@ script:
   - conda activate base
   - conda install -c r r-base r-testthat r-devtools
   - conda install -c angrymaciek badsorts
-  - conda list
   - R -e 'library("devtools"); test()'
