@@ -6,6 +6,7 @@ os:
 install:
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt update; fi
   - if [ "$TRAVIS_OS_NAME" = "linux" ]; then wget https://repo.continuum.io/miniconda/Miniconda3-latest-Linux-x86_64.sh -O miniconda.sh; fi
+  #- if [ "$TRAVIS_OS_NAME" = "linux" ]; then sudo apt install r-base-core; fi
   - bash miniconda.sh -b -p $HOME/miniconda
   - source "$HOME/miniconda/etc/profile.d/conda.sh"
   - hash -r
@@ -13,12 +14,8 @@ install:
   - conda update -q conda
   - conda info -a
 
-before_script:
-  - conda install -c r r-base
-  - conda install -c r r-essentials
-  - conda install -c r r-testthat
-
 script:
+  - conda install -c r r-base r-testthat
   - conda install -c angrymaciek badsorts
   - R --version
   - Rscript --version
