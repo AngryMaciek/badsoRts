@@ -20,4 +20,6 @@ before_script:
 
 script:
   - conda install -c angrymaciek badsorts
+  - R --version
+  - Rscript --version
   - Rscript tests/testthat.R
