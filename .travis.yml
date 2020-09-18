@@ -15,6 +15,7 @@ install:
 
 before_script:
   - conda install -c r r-base
+  - conda install -c r r-base-core
   - conda install -c r r-testthat
 
 script:
