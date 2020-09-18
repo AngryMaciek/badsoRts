@@ -18,5 +18,4 @@ script:
   - conda install -c r r-base r-testthat r-devtools
   - conda install -c angrymaciek badsorts
   - conda list
-  - R -e 'library("devtools")'
-  #- Rscript tests/testthat.R
+  - R -e 'library("devtools"); test()'
