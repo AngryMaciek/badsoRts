@@ -18,5 +18,5 @@ before_script:
   - conda install -c r r-testthat
 
 script:
-
   - conda install -c angrymaciek badsorts
+  - Rscript tests/testthat.R
